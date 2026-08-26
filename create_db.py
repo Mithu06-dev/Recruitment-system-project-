@@ -38,7 +38,6 @@ CREATE TABLE IF NOT EXISTS recruiters(
     password TEXT
 )
 """)
-
 conn.commit()
 conn.close()
 
